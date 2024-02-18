@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <title>Library</title>
 </head>
 <body>
-    
+    <button class="new-book-button" id="newBook">New Book</button>
+    <form class="form-field">
+        <fieldset class="book-entry-form" id="bookEntryForm">
+            <!-- <button class="form-exit-button" id="formExitButton">x</button> -->
+                <label for="bookAuthor">Author</label>
+                <input type="text" name="book-author" id="bookAuthor">
+                <label for="bookTitle">Title</label>
+                <input type="text" name="book-title" id="bookTitle">
+                <label for="bookPages">Pages</label>
+                <input type="number" name="book-pages" id="bookPages">
+                <label for="readBook">Read
+                <input type="checkbox" name="read-book" id="readBook">
+                </label>
+            <button class="add-book-button">Add Book</button>
+        </fieldset>
+    </form>
 </body>
 </html>
