@@ -1,0 +1,51 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-book-button {
+    height: 50px;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.form-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.book-entry-form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    padding: 50px;
+}
+
+/* .form-exit-button {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: -60px 0 0 200px;
+    border: 0;
+    color: red;
+    cursor: pointer;
+} */
+
+label {
+    margin: 1rem 0 1rem 0;
+}
